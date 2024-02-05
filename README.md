@@ -1,6 +1,9 @@
 # BMP Image Processor Utility
 Command line pipeline utility for transforming BMP image data; written entirely in well-structured C, the top choice for low-level systems programming. 
 
+## Build
+```gcc imageprocessor.c -o imageprocessor```
+
 ## Quickstart
 Program will read image data from the standard input, apply the desired transformation, and then write the transformed image data to the standard output.
 
